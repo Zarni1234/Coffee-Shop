@@ -57,13 +57,14 @@ section {
 }
 /* -----Section 1 Home section -----*/ 
 
+
 .hero-section {
   width: 100%;
   height: 100vh;
   background-image: url(../img/mainphto\ repair.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .cover-color {
@@ -155,7 +156,7 @@ section {
   position: absolute;
 }
 .hero-text{
-  margin-top: 70px;
+  margin-top: 80px;
   margin-bottom: 30px;
   color: var(--textcolor);
   font-size: 70px;
@@ -193,7 +194,6 @@ section {
 /* ------ Section 2 Workspace section -----*/
 
 .workspace-section{
-  /* position: relative; */
   background-color: #968884;
   display: flex;
   justify-content: center;
@@ -233,9 +233,8 @@ section {
 }
 
 /*---------- Section 3 Coffee Kind Section -----------*/
-
 .kind-section-header{
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .coffeekind-container{
@@ -277,13 +276,10 @@ section {
 
 
 .natural-seed-section{
-  /* position: relative; */
   background-color: #968884;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 30px; */
-  
 }
 
 .natural-seed-horizontal{
@@ -335,7 +331,7 @@ section {
 }
 
 .ourservices-header-container{
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .ourservices-header{
@@ -401,7 +397,7 @@ color: var(--third);
 /*----- Section 6 Pricing Plan Section -----*/
 
 .pricing-plan{
-  margin-top: 100px;
+  margin-top: 35px;
   /* background-color: #b9a49f; */
 }
 
@@ -495,7 +491,7 @@ color: var(--third);
 /*--------- Section 7 Testimonial Section ----------*/
 
 .testimonial-section{
-  margin-top: 80px;
+  margin-top: 65px;
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/section7backgroundrepair.jpg);
   background-size: cover;
   background-position: center;
@@ -554,8 +550,8 @@ color: var(--third);
 /*---------- Contact-Section Section 8 -----------*/
 
 .contact-section{
-  margin-top: 70px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .contact-container{

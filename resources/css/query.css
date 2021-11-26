@@ -110,7 +110,7 @@
 }
 
 /* Small phone and small tablet from 480px to 767px */
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px) {
     .hero-section{
       height: 700px;
     }
@@ -188,7 +188,6 @@
         height: 320px;
         margin-right: 130px;
         padding: 60px 50px;
-        
       }
       .natural-content h4{
         font-size: 17px;
@@ -201,6 +200,7 @@
         word-spacing: 0.9px;
         font-size: 14px;
       }
+
       /* service section */
       .ourservices-section{
         height: 750px;
@@ -294,14 +294,13 @@
 }
 
 /* for phone between 0 to 375px */
-@media only screen and (max-width:414px){
-  
+@media only screen and (max-width:414px) {
 .main-nav-container{
   height: 82px;
   position: sticky;
   top: 0.5px;
   z-index: 3;
-}
+  }
   .main-nav{
     padding-top: 3px;
   }
@@ -316,14 +315,14 @@
     margin-top: 5px;
   }
   .cover-color {
-    height: 600px;
+    height: 550px;
   }
   .nav-box-bigcontainer{
     margin-top: 0px;
   }
   .hero-section-container{
     width: 100%;
-    height: 600px;
+    height: 450px;
     z-index: 1;
     margin-bottom: 20px;
   }
@@ -338,10 +337,13 @@
     margin-top: 20px;
   }
   .hero-text{
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
   }
   .home-btn-container{
     margin-top: 60px;
+    margin-left: 75px;
   }
   .home-btn{
     width: 15px;
@@ -364,7 +366,7 @@
   .workspace-section{
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 500px;
   }
   .workspace-box{
     width: 375px;
@@ -417,15 +419,15 @@
   }
   
   .coffeekind-box p{
-    margin-left: 25px;
+    margin-left: 45px;
     margin-bottom: 30px;
     letter-spacing: 1.1px;
     word-spacing: 2px;
   }
   .kind-img{
-    width: 300px;
-    height: 240px;
-    margin-left: 45px;
+    width: 280px;
+    height: 220px;
+    margin-left: 60px;
     margin-bottom: 30px;
   }
 
@@ -433,7 +435,7 @@
   .natural-seed-section{
     width: 100%;
     position: relative;
-    height: 600px;
+    height: 450px;
   }
   .natural-container{
     width: 370px;
@@ -441,15 +443,15 @@
     padding: 30px 30px;
     position: absolute;
     margin-right: 0px;
-    padding-right: 0px;
   }
   .natural-content{
-    margin: 10px;
+    margin: 5px;
+    width: 150px;
   }
   .natural-content h4{
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-transform: uppercase;
   }
   .natural-content p{
@@ -462,10 +464,11 @@
     height: 160px;
   }
 
+
   /* ourservices section */
   .ourservices-section{
     width: 100%;
-    height: 1000px;
+    height: 830px;
   }
   .services-icon{
     margin-left: 170px;
@@ -490,9 +493,9 @@
   /* pricing plan */
 
   .pricing-plan{
-    margin-top: 50px;
+    margin-top: 20px;
     width: 100%;
-    height: 1350px;
+    height: 1200px;
   
   }
   .pricing-main-header{
@@ -508,20 +511,25 @@
   }
   .plan-box{
     width: 280px;
-    height: 380px;
-    margin-left: 45px;
+    height: 350px;
+    margin-left: 55px;
     margin-bottom: 25px;
   }
-  
-  
+  .plan-box p:nth-child(3){
+    padding-bottom: 4px;
+  }
+  .plan-box p:last-of-type{
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+  }
   .plan-box h5{
     font-size: 22px;
     margin: 20px 0;
     padding-bottom: 20px;
   }
   .plan-box p{
-    margin-bottom: 13px;
-    font-size: 17px;
+    margin-bottom: 10px;
+    font-size: 16px;
   }
   .plan-price{
     font-size: 26px;
@@ -529,12 +537,12 @@
   
   .plan-box a{
     padding: 13px 15px;
-    margin:20px 0 10px 80px;
+    margin:30px 0 10px 80px;
   }
   
   /* testimonial section */
   .testimonial-section{
-    height: 1050px;
+    height: 900px;
     width: 100%;
   }
   .testimonial-header{
@@ -542,6 +550,9 @@
   }
   
   /* contact section */
+  .contact-section{
+    margin-bottom: 0px;
+  }
   .contact-box{
     width: 360px;
   }
@@ -550,12 +561,19 @@
     margin-left: 120px;
     padding: 13px 17px;
   }
+  /* google map */
+  .google-map{
+    margin-top: 2px;
+  }
 
   /* footer section */
   .facebook{
-    margin-left: 100px;
+    margin-left: 160px;
   }
   .footer-section{
     height: 200px;
+  }
+  .footer-text-container{
+    margin-left: 22px;
   }
 }
