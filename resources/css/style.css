@@ -75,6 +75,7 @@ section {
     rgba(0, 0, 0, 0.3)
   );
   position: absolute;
+  overflow: hidden;
 }
 
 .main-nav-container{
@@ -94,6 +95,8 @@ section {
 .main-nav-container .main-nav{
   width: 100%;
   position: absolute;
+  top: 1px;
+  padding-top: 0px;
 }
 .hero-header{
   width: 50%;
@@ -110,7 +113,9 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .coffee-icon{
@@ -121,7 +126,7 @@ section {
 .nav-box-bigcontainer{
   float: left;
   width: 50%;
-  margin-top: 50px;
+  margin-top: 24px;
   
 }
 
@@ -195,8 +200,6 @@ section {
   align-items: center;
 }
 
-
-
 .workspace-box{
   width: 700px;
   height: 340px;
@@ -230,9 +233,6 @@ section {
 }
 
 /*---------- Section 3 Coffee Kind Section -----------*/
-
-
-
 
 .kind-section-header{
   margin-top: 60px;
@@ -378,7 +378,6 @@ color: var(--third);
 }
 
 .services-icon{
-  
   /* margin-bottom: 40px; */
   /* position: absolute; */
   margin-left: 170px;
@@ -438,7 +437,7 @@ color: var(--third);
 
 .plan-box h5{
   color: var(--textcolor);
-  font-size: 20px;
+  font-size: 23px;
   text-align: center;
   margin: 20px 0;
   padding-bottom: 20px;
@@ -450,7 +449,6 @@ color: var(--third);
   color: var(--textcolor);
   margin-bottom: 13px;
   font-size: 20px;
-  color: var(--textcolor);
 }
 
 .plan-box p:nth-child(3){
