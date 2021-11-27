@@ -173,8 +173,10 @@
       }
       .kind-section-header .common-header::after{
         content: " ";
-        visibility: none;
+        visibility: hidden;
         height: 0;
+        display: none;
+        width: 0px;
       }
     /* natutal seed section */
     .natural-seed-section{
@@ -210,6 +212,8 @@
           content: " ";
           visibility: hidden;
           height: 0;
+          display: none;
+          width: 0px;
       }
       .services-icon{
         margin-left: 100px;
@@ -250,8 +254,9 @@
     }
     .testimonial-section .common-header::after{
         content: " ";
-        visibility: hidden;
+        display: none;
         height: 0;
+        width: 0;
     }
     .testimonial-box .customer{
         width: 60px;
@@ -293,32 +298,44 @@
       }
 }
 
-/* for phone between 0 to 375px */
+/* for phone between 0 to 414px */
 @media only screen and (max-width:414px) {
-.main-nav-container{
+
+  .main-nav-container{
+  width: 100%;
   height: 82px;
   position: sticky;
   top: 0.5px;
   z-index: 3;
+  margin-right: 0px;
   }
   .main-nav{
     padding-top: 3px;
   }
   .hero-header{
-    width: 30%;
+    width: 40%;
   }
   .hero-header-logo{
-    font-size: 25px;
-    width: 90%;
-    margin-left: 10px;
-    margin-bottom: 3px;
-    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 800;
+    width: 80%;
+    margin-left: 5px;
+    display: block;
+    margin-top: 24px;
   }
   .cover-color {
-    height: 550px;
+    height: 450px;
   }
   .nav-box-bigcontainer{
-    margin-top: 0px;
+    width: 60%;
+    margin-top: 24px;
+  }
+  .nav-box-bigcontainer .nav-box{
+    font-size: 12px;
+    padding-bottom: 6px;
+    text-decoration: none;
+    transition: all 1s;
+    margin-right: 2px;
   }
   .hero-section-container{
     width: 100%;
@@ -348,7 +365,6 @@
   .home-btn{
     width: 15px;
     height: 9px;
-
     font-size: 14px;
     font-weight: 500;
     padding: 6px 7px;
@@ -367,14 +383,15 @@
     position: relative;
     width: 100%;
     height: 500px;
+    margin-right: 0px;
   }
   .workspace-box{
-    width: 375px;
+    width: 100%;
     height: 300px;
     margin-left: 3px;
     margin-right: 10px;
     padding-right: 40px;
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -397,11 +414,15 @@
     word-spacing: 3px;
     font-size: 12px;
   }
+  .horizontal-header{
+   display: none;
+  }
   
 
   /* coffee kind section */
   .kind-section-header{
     margin-top: 40px;
+    margin-right: 0px;
   }
   .kind-section-header .common-header{
     font-size: 33px;
@@ -427,8 +448,15 @@
   .kind-img{
     width: 280px;
     height: 220px;
-    margin-left: 60px;
+    margin-left: 65px;
     margin-bottom: 30px;
+  }
+  .kind-section-header .common-header::after{
+    content: " ";
+    display: none;
+    height: 0;
+    display: none;
+    width: 0px;
   }
 
   /* natural seed section */
@@ -436,22 +464,24 @@
     width: 100%;
     position: relative;
     height: 450px;
+    margin-right: 0px;
   }
   .natural-container{
-    width: 370px;
+    width: 100%;
     height: 260px;
     padding: 30px 30px;
-    position: absolute;
+    position: relative;
     margin-right: 0px;
+    padding-right: 0px;
   }
   .natural-content{
     margin: 5px;
-    width: 150px;
+    /* width: 150px; */
   }
   .natural-content h4{
     font-size: 16px;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     text-transform: uppercase;
   }
   .natural-content p{
@@ -460,15 +490,19 @@
     font-size: 12px;
   }
   .natural-img{
-    width: 200px;
+    width: 190px;
     height: 160px;
+  }
+  .horizontal-header{
+   display: none;
   }
 
 
   /* ourservices section */
   .ourservices-section{
     width: 100%;
-    height: 830px;
+    height: 900px;
+    margin-right: 0px;
   }
   .services-icon{
     margin-left: 170px;
@@ -489,14 +523,20 @@
     word-spacing: 0.9px;
     font-size: 13px;
   }
+  .ourservices-header-container .common-header::after{
+    content: " ";
+    display:none;
+    height: 0;
+    width: 0px;
+}
 
   /* pricing plan */
 
   .pricing-plan{
     margin-top: 20px;
     width: 100%;
-    height: 1200px;
-  
+    height: 1300px;
+    margin-right: 0px;
   }
   .pricing-main-header{
     margin: 30px 0;
@@ -506,8 +546,9 @@
   }
   .pricing-plan .common-header::after{
     content: " ";
-    visibility: hidden;
+    display: none;
     height: 0;
+    width: 0;
   }
   .plan-box{
     width: 280px;
@@ -542,16 +583,25 @@
   
   /* testimonial section */
   .testimonial-section{
-    height: 900px;
     width: 100%;
+    height: 900px;
+    margin-right: 0px;
   }
   .testimonial-header{
     font-size: 25px;
   }
+  .testimonial-section .common-header::after{
+    content: " ";
+    display: none;
+    height: 0;
+    width: 0;
+  }
   
   /* contact section */
   .contact-section{
+    width: 100%;
     margin-bottom: 0px;
+    margin-right: 0px;
   }
   .contact-box{
     width: 360px;
@@ -563,10 +613,16 @@
   }
   /* google map */
   .google-map{
+    width: 100%;
     margin-top: 2px;
+    margin-right: 0px;
   }
 
   /* footer section */
+  .footer-section{
+    width: 100%;
+    margin-right: 0px;
+  }
   .facebook{
     margin-left: 160px;
   }
@@ -574,6 +630,7 @@
     height: 200px;
   }
   .footer-text-container{
-    margin-left: 22px;
+    margin-left: 15px;
   }
+  
 }

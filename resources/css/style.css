@@ -14,6 +14,7 @@
   scroll-behavior: smooth;
 }
 
+
 /* -----Common Class -----*/
 
 .row{
@@ -25,7 +26,8 @@
 section {
   width: 100%;
   height: 100vh;
- 
+  margin: 0px auto;
+  padding: 0px;
 }
 
 .common-header{
@@ -128,7 +130,6 @@ section {
   float: left;
   width: 50%;
   margin-top: 24px;
-  
 }
 
 .nav-box-container{
@@ -194,6 +195,7 @@ section {
 /* ------ Section 2 Workspace section -----*/
 
 .workspace-section{
+  width: 100%;
   background-color: #968884;
   display: flex;
   justify-content: center;
@@ -280,6 +282,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .natural-seed-horizontal{
@@ -287,7 +290,7 @@ section {
 }
 
 .natural-container{
-  width: 700px;
+  width: 650px;
   height: 340px;
   display: flex;
   justify-content: center;
@@ -327,7 +330,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  
+  width: 100%;
 }
 
 .ourservices-header-container{
@@ -398,6 +401,7 @@ color: var(--third);
 
 .pricing-plan{
   margin-top: 35px;
+  width: 100%;
   /* background-color: #b9a49f; */
 }
 
@@ -496,6 +500,7 @@ color: var(--third);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  width: 100%;
 }
 
 .testimonial-header{
@@ -552,6 +557,7 @@ color: var(--third);
 .contact-section{
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .contact-container{
@@ -576,7 +582,6 @@ color: var(--third);
 }
 
 .contact-input{
-  
   width: 100%;
   height: 65px;
   margin: 20px 0;
@@ -594,7 +599,7 @@ color: var(--third);
   font-size: 19px;
   font-weight: 550;
   margin-left: 123px;
- margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .contact-box .name{
@@ -612,6 +617,7 @@ color: var(--third);
 
 .contact-input .name::placeholder{
   color: #ac3f21;
+  padding-left: 20px;
 }
 
 .contact-box .email{
@@ -625,6 +631,7 @@ color: var(--third);
 
 .contact-input .email::placeholder{
   color: #ac3f21;
+  padding-left: 20px;
 }
 
 .contact-box .password{
@@ -638,7 +645,7 @@ color: var(--third);
 
 .contact-input .password::placeholder{
   color: #ac3f21;
-  margin: 10px;
+  padding-left: 20px;
 }
 
 .contact-box .message{
@@ -693,7 +700,7 @@ color: var(--third);
 .google-map{
   width: 100%;
   height: 30vh;
-  margin: 30px 0 0 0;
+  margin: 20px 0 0 0;
   padding: 0;
 }
 
